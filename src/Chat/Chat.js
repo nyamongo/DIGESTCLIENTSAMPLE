@@ -11,7 +11,7 @@ const Chat = () => {
 
   useEffect(() => {
     const connection = new HubConnectionBuilder()
-      .withUrl("http://thedigestapp-001-site1.gtempurl.com/hubs/chat")
+      .withUrl("http://api.thedigest.app/hubs/chat")
       .withAutomaticReconnect()
       .build();
 
